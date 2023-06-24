@@ -52,5 +52,10 @@ To set up the project locally, follow these steps:
 9. After submitted Invoices Extracted_data.csv file will be downloaded.
 ![image](https://github.com/nipunarora098/Adobe-Project/assets/74128691/24156997-0a0b-4e9c-a587-0ce05f12a91b)
 
+#Testcases and Output Data
+
+Testcase :- https://drive.google.com/drive/folders/1WHnGtmzHbEI_cy44k9bRi2sfUr1ucrya
+Extracted_Data :- 
+
    
 
