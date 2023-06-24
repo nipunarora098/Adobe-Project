@@ -140,7 +140,7 @@ async function Extract_Details(OUTPUT_ZIP) {
   Invoice__DueDate = Invoice__DueDate.replace("PAYMENT", "");
   
   var customer_details_array  = customer_details.split(" ");
-  console.log(customer_details);
+  // console.log(customer_details);
   var customer_index = 0;
   let Customer_email = "";
   const Customer_Name = customer_details_array[customer_index] + " " + customer_details_array[customer_index + 1];
@@ -206,13 +206,13 @@ async function Extract_Details(OUTPUT_ZIP) {
   }
   
   var Tax_Y_Coordinate = data.elements[index].Bounds[1];
-  index++;
-  
-  while(data.elements[index].Text === undefined || data.elements[index].Bounds[1] !== Tax_Y_Coordinate){
+  var Invoice_Tax = "";
+  while(data.elements[index].Text === undefined || data.elements[index].Bounds[1] === Tax_Y_Coordinate){
+    if(data.elements[index].Text) Invoice_Tax += data.elements[index].Text;
     index++;
   }
-  
-  var Invoice_Tax = data.elements[index].Text;
+  Invoice_Tax = Invoice_Tax.replace("Tax" , "");
+  Invoice_Tax = Invoice_Tax.replace("%" , "");
   
   const Invoice_data = {
     business_name,
