@@ -38,6 +38,7 @@ To set up the project locally, follow these steps:
 3. Install Dependancies
 	```shell
  	npm init
+  
 	npm i react-router-dom axios
 4. Start Frontend
  	```shell
