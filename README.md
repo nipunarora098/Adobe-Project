@@ -27,32 +27,40 @@ Technologies Used : React , Express
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-   ```shell
+    ```shell
    git clone https://github.com/nipunarora098/Adobe-Project.git
-
-2. GO to client directory 
+	
+2. GO to client directory:	
+	```shell
 	cd client
+
+ 
 3. Install Dependancies
-	npm init
+	```shell
+ 	npm init
 	npm i react-router-dom axios
 4. Start Frontend
-	npm start
+ 	```shell
+ 	npm start
 5. Go to server Directory
-	cd server
+	```shell
+ 	cd server
 6. Install Dependancies
-	npm init
-	npm i express multer cors fs @adobe/pdfservices-node-sdk csv-writer adm-zip
+	```shell
+ 	npm init	
+ 	npm i express multer cors fs @adobe/pdfservices-node-sdk csv-writer adm-zip
 
 
 7. Start backend
-	npm run dev
+	```shell
+ 	npm run dev
 8. On Frontend Interface -> Select Invoices
   ![image](https://github.com/nipunarora098/Adobe-Project/assets/74128691/223cfc91-a6b2-4589-a716-5cc945ab8ab1)
 
 9. After submitted Invoices Extracted_data.csv file will be downloaded.
 ![image](https://github.com/nipunarora098/Adobe-Project/assets/74128691/24156997-0a0b-4e9c-a587-0ce05f12a91b)
 
-#Testcases and Output Data
+## Testcases and Output Data
 
 Testcase :- https://drive.google.com/drive/folders/1WHnGtmzHbEI_cy44k9bRi2sfUr1ucrya
 
