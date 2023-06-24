@@ -50,5 +50,7 @@ To set up the project locally, follow these steps:
   ![image](https://github.com/nipunarora098/Adobe-Project/assets/74128691/223cfc91-a6b2-4589-a716-5cc945ab8ab1)
 
 9. After submitted Invoices Extracted_data.csv file will be downloaded.
+![image](https://github.com/nipunarora098/Adobe-Project/assets/74128691/24156997-0a0b-4e9c-a587-0ce05f12a91b)
 
+   
 
